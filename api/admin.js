@@ -6,7 +6,7 @@ const REPO_OWNER = process.env.REPO_OWNER || 'rhmt-ofc';
 const REPO_NAME = process.env.REPO_NAME || 'My-portofolio';
 const REPO_BRANCH = process.env.REPO_BRANCH || 'main';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
-const ADMIN_SECRET = process.env.ADMIN_SECRET_KEY || '';
+const ADMIN_SECRET = process.env.ADMIN_SECRET_KEY || 'hello';
 const REDIS_PREFIX = 'rhmt:{ratings}:v23:';
 
 function safeCompare(a, b) {
